@@ -33,11 +33,17 @@ body {
   font-weight: 700;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
   font-size: 1.4rem;
+  transition: 0.3s;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+hr {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 3px;
 }
 
 /* NAVBAR */
@@ -110,6 +116,7 @@ a {
 
 .nav-button {
   margin: auto;
+  width: auto;
 }
 
 .nav-button a {
@@ -117,6 +124,14 @@ a {
   color: rgba(250, 250, 250, 1);
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
   margin-left: 1.5rem;
+}
+
+.nav-button a:hover {
+  background-color: #e7332b;
+}
+
+.nav-button a:active {
+  padding: 1rem 2.2rem;
 }
 
 hr {
@@ -130,12 +145,11 @@ hr {
   display: flex;
   justify-content: space-between;
   position: relative;
+  height: 85vh;
 }
 
 .hero-section-image {
   margin-left: -10rem;
-  /* margin-right: 14rem; */
-  /* margin-top: 1.4rem; */
   width: 900px;
   height: auto;
 }
@@ -152,7 +166,6 @@ hr {
   line-height: 5.6rem;
   font-weight: 700;
   width: 100%;
-  /* border: 1px solid green; */
   color: rgba(77, 76, 76, 1);
   margin-bottom: 1.4rem;
 }
@@ -165,8 +178,6 @@ hr {
   color: #4d4c4c;
   width: 80%;
   margin-bottom: 1.4rem;
-
-  /* border: 1px solid red; */
 }
 
 .hero-section-buttons {
@@ -188,6 +199,14 @@ hr {
   margin-right: 2rem;
 }
 
+.hero-section-primary-button a:hover {
+  background-color: rgba(41, 41, 41, 1);
+}
+
+.hero-section-primary-button a:active {
+  padding: 1.6rem 2.8rem;
+}
+
 .hero-section-secondary-button {
   font-family: "Manrope", sans-serif;
   font-size: 1.6rem;
@@ -200,4 +219,68 @@ hr {
 
 .hero-section-secondary-button-link {
   padding-right: 0.4rem;
+}
+
+/* SECOND SECTION */
+
+.second-section {
+  display: flex;
+  /* margin: auto 14rem; */
+  height: 70vh;
+  width: 100%;
+  background-color: rgba(248, 248, 248, 1);
+}
+
+.ingressive img {
+  width: 12rem;
+  height: 12rem;
+}
+
+.cards-and-ingressive {
+  margin: 0 14rem;
+}
+
+.second-section-cards {
+  height: 20rem;
+  width: 18rem;
+  background-color: rgba(255, 255, 255, 1);
+  filter: drop-shadow(2px 6px 20px rgba(0, 0, 0, 0.1));
+  border-radius: 1rem;
+}
+
+.second-section-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 2.4rem 0 3.5rem 1.8rem;
+}
+
+.box {
+  margin-top: 2rem;
+  background-color: rgba(240, 220, 248, 1);
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.second-section-flex h3 {
+  font-family: Manrope, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  margin-bottom: 0.5rem;
+  color: rgba(77, 76, 76, 1);
+}
+
+.second-section-flex p {
+  font-family: Nunito;
+  font-size: 13px;
+  color: rgba(77, 76, 76, 1);
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  /* border: 1px solid red; */
+  width: 80%;
 }
