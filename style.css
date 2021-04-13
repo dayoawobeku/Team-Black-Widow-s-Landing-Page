@@ -245,7 +245,7 @@ hr {
 .ingressive img {
   width: 12rem;
   height: 12rem;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .cards-and-ingressive {
@@ -296,10 +296,6 @@ hr {
   background-color: #eff1ff;
 }
 
-.container3 .paragraph3 {
-  font-size: 8rem;
-}
-
 .second-section-flex h3 {
   font-family: Manrope, sans-serif;
   font-size: 1.6rem;
@@ -317,7 +313,7 @@ hr {
   font-weight: 400;
   line-height: 20px;
   text-align: left;
-  width: 80%;
+  width: 83%;
 }
 
 .second-section-text {
@@ -356,5 +352,89 @@ hr {
   width: 52.5rem;
   height: 14rem;
   left: 28rem;
-  top: 7.3rem;
+  top: 9.4rem;
+}
+
+/* REGISTRATION SECTION */
+
+.registration-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.registration-heading {
+  text-align: center;
+  font-family: Manrope;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 41px;
+  color: rgba(77, 76, 76, 1);
+}
+
+.form-row {
+  display: flex;
+  margin: 1rem;
+}
+
+.form-items {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  font-family: Manrope, sans-serif;
+  font-size: 13px;
+  opacity: 0.7;
+  width: 24rem;
+  margin-bottom: 1rem;
+}
+
+input[type="name"] {
+  width: 100%;
+  padding: 7px 6px 7px 10px;
+  margin: 7px 0;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.registration-button {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.registration-button a {
+  padding: 1.5rem 13rem;
+  font-weight: 800;
+  font-size: 2rem;
+  border-radius: 4px;
+  background-color: #e7332b;
+}
+
+.registration-button a:hover {
+  background-color: rgba(41, 41, 41, 1);
+}
+
+.registration-button a:active {
+  padding: 1.2rem 12.2rem;
+}
+
+.gender,
+.age {
+  width: 11rem;
+}
+
+span {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  /* top: 50px; */
+  bottom: 10px;
+  right: 8px;
+}
+
+.about {
+  height: 7rem;
 }
