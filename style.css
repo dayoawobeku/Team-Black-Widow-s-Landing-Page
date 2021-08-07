@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
 }
 
 html {
@@ -355,6 +356,87 @@ hr {
   top: 9.4rem;
 }
 
+/* third section */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+.third {
+  background: url("./Images/3rd\ section\ art.svg") no-repeat bottom;
+  background-size: contain;
+  background-position: 0 69%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 7rem;
+  padding-right: 7rem;
+}
+
+.third .explore {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.third .explore h2 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+.third .explore p {
+  font-size: 13px;
+  line-height: 20px;
+  padding: 1rem 0;
+}
+
+.third .explore button {
+  background: red;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  margin: 1rem 0;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.third .explore button:hover {
+  color: red;
+  background-color: #fff;
+}
+
+.third .cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 6rem;
+}
+
+.third .cards .intern {
+  border-radius: 5px;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  padding: 30px 20px;
+  margin: 20px 10px;
+  cursor: pointer;
+}
+
+.third .cards .intern:hover {
+  background-color: #dadada;
+}
+
+.third .cards .intern h4 {
+  padding: 10px 0;
+  font-size: 1.4rem;
+}
+
+.third .cards .intern p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.third .cards .intern.tilt {
+  margin: -5px 10px 45px;
+}
+
 /* REGISTRATION SECTION */
 
 .registration-container {
@@ -437,4 +519,42 @@ span {
 
 .about {
   height: 7rem;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  padding: 20px 40px 70px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 9rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.socials a {
+  padding: 5px;
+}
+
+.socials a:hover {
+  color: #e7332b;
+}
+
+footer div {
+  padding: 50px;
+}
+
+footer h4 {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+footer p {
+  padding: 5px;
+  font-size: 13px;
 }
